@@ -1,0 +1,152 @@
+@media only screen and (max-width: 720%) {
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-button{
+    margin-top: 200px;
+  }
+  
+  .image-button2{
+    margin-top: 200px;
+  }
+  
+  .image-button3{
+    margin-top: 200px;
+  }
+}
+
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.image-button{
+  margin-top: 200px;
+}
+
+.image-button2{
+  margin-top: 200px;
+}
+
+.image-button3{
+  margin-top: 200px;
+}
+
+.search-container {
+  position: relative;
+}
+
+@media only screen and (max-width: 720px) and (aspect-ratio: 20/9) {
+  .search-container input {
+    padding-left: 30px;
+  }
+  .search-container .fa-search {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+  }
+  
+  
+  .header-container {
+    margin-top: 200px;
+    font-size: 300px;
+  }
+  .divider {
+    height: 2px;
+    background-color: #333;
+    margin: 20px 0;
+  }
+  
+  .vertical-divider {
+  width: 2px;
+  height: 50px;
+  background-color: #333;
+  margin: 0 20px;
+  display: inline-block;
+  }
+  .video-container {
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the video horizontally */
+  }
+}
+
+.search-container input {
+  padding-left: 30px;
+}
+.search-container .fa-search {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+
+.header-container {
+  margin-top: 200px;
+  font-size: 300px;
+}
+.divider {
+  height: 2px;
+  background-color: #333;
+  margin: 20px 0;
+}
+
+.vertical-divider {
+width: 2px;
+height: 50px;
+background-color: #333;
+margin: 0 20px;
+display: inline-block;
+}
+.video-container {
+max-width: 600px; /* Adjust the max-width as needed */
+margin: 0 auto; /* Center the video horizontally */
+}
+
+.footer a {
+text-decoration: none;
+}
+.footer a:hover {
+text-decoration: underline;
+}
+
+.button-link a{
+text-decoration: none;
+}
+
+@media screen and (min-width:480%) {
+   .row, .navbar{
+    flex-direction: column;
+   }
+}
+
+@keyframes slideIn {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+.header-container {
+  animation: slideIn 2s ease-out;
+  font-size: 2em;
+  color: #333;
+  margin-top: 20%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
